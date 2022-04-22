@@ -29,12 +29,13 @@ fonts
 */
 
 @font-face {
-	font-family: 'Sans';
+	font-family: 'Grotesk Neue';
 	font-style: normal;
 	font-weight: 400;
 	font-display: block;
-	src: url("/fonts/{inlcude-font-filename-here}.woff2") format("woff2"),
-		 url("/fonts/{inlcude-font-filename-here}.woff") format("woff");
+	src: /* url("/fonts/FKGroteskNeueTrial-Regular.woff2") format("woff2"),
+		 url("/fonts/FKGroteskNeueTrial-Regular.woff") format("woff"), */
+         url("/fonts/FKGroteskNeueTrial-Regular.otf") format("opentype");
 }
 
 /*
@@ -58,7 +59,7 @@ html {
 body {
     background-color: var(--background);
     color: var(--color);
-    font-family: 'Sans', sans-serif;
+    font-family: 'Grotesk Neue', sans-serif;
     font-size: 1rem;
     line-height: 1.3;
 }

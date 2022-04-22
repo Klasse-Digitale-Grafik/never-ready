@@ -22,8 +22,8 @@ npm run build
 ## Where to edit stuff
 
 - Pages `src/routes/...`
-- Some static images `static/images/...`
-- Components `static/lib/...`
+- Components `src/lib/...`
 - Global CSS `/static/global.css`
+- Static images `static/images/...`
 - Fonts `/static/fonts/...` (include in global.css)
 - Favicon `static/favicon/...` (include in app.html)
