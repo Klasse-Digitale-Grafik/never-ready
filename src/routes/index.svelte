@@ -3,15 +3,12 @@
 	import Text from '$lib/shuffledText/Text.svelte';
 	
 	let readable = false;
-	let visible = true;
 	let debug = false;
 	
 </script>
 
-<a href="/synopsis">Synopsis</a>
-
 <main on:mouseenter={()=> readable = true} on:mouseleave={()=> readable = false}>
-	<Text {debug} {readable} {visible} text="
+	<Text {debug} {readable} text="
 		[!0] Ne[40]ver Rea[40]dy [!40]
 		[!0] A Co[40]ngre[30]ss on [!20]
 		[!20] th[60]e Visua[20]lity of

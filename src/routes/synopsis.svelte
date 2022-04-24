@@ -3,15 +3,12 @@
 	import Text from '$lib/shuffledText/Text.svelte';
 	
 	let readable = false;
-	let visible = true;
 	let debug = false;
 	
 </script>
 
-<a href="/">Index</a>
-
 <main on:mouseenter={()=> readable = true} on:mouseleave={()=> readable = false}>
-	<Text {debug} {readable} {visible} text="
+	<Text {debug} {readable} text="
 		[!10] Ho[50]w , c[50]an [!90]
 		[!20] we [50] [!80]
 		[!30] g[50]o [50] off [!70]
