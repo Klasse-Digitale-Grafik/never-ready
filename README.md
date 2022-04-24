@@ -24,6 +24,8 @@ Export
 npm run build
 ```
 
+> If you have never worked with [Svelte](https://www.youtube.com/watch?v=rv3Yq-B8qp4) and SvelteKit before: Svelte is a JS compiler that makes it easier to make interactive interface with Html, Js, Css. SvelteKit is a framework that makes it easy to build real websites with Svelte. You might want to download a Svelte extension for your code editor ([CS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)) or [Atom](https://atom.io/packages/ide-svelte)).
+
 ## Where to edit stuff
 
 - Pages `src/routes/...`
