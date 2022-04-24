@@ -8,15 +8,16 @@
 	let snippets = parseText( text );
 	
 	export let readable = true;
+	export let visible = true;
 	export let delay = 0;
 	export let debug = false;
 	
 </script>
 
 <p class="line" class:debug style="--delay:{delay}ms;">
-	{#each snippets as item}
+	{#each snippets as item, i}
 		{#if item instanceof WordObject}
-			<Word text={item.text} {debug} />
+			<Word text={item.text} {debug} {visible} right={i > snippets.length/2.4} />
 		{:else if item instanceof SpaceObject}
 			<Space {...item} expanded={item.expanded === readable} {debug} />
 		{/if}
@@ -33,7 +34,7 @@
 		justify-content: center;
 	}
 	
-	.line.debug {
+	.debug {
 		background-color: #fcf;
 	}
 	

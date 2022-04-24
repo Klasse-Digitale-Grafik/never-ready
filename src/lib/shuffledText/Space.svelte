@@ -29,13 +29,13 @@
 		flex-basis: var(--width);
 	}
 	
-	.space.debug {
+	.debug {
 		background-color: #ccf;
 		overflow: hidden;
 		display: flex;
 		font-size: 10px;
 	}
-	.space.debug:before {
+	.debug:before {
 		content: attr(data-width);
 	}
 

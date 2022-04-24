@@ -13,7 +13,7 @@
 </script>
 
 {#each lines as line, i}
-	<Line {debug} {readable} delay={100*i} text={line} />
+	<Line {debug} {readable} {visible} delay={100*i} text={line} />
 {/each}
 
 <style>
