@@ -4,6 +4,11 @@
 
 ## Development
 
+Download
+```
+git clone https://github.com/Klasse-Digitale-Grafik/never-ready.git
+```
+
 Install
 ```
 npm i
@@ -22,8 +27,8 @@ npm run build
 ## Where to edit stuff
 
 - Pages `src/routes/...`
-- Components `src/lib/...`
+- Website Components `src/lib/...`
 - Global CSS `/static/global.css`
 - Static images `static/images/...`
-- Fonts `/static/fonts/...` (include in global.css)
-- Favicon `static/favicon/...` (include in app.html)
+- Fonts `/static/fonts/...` (reference in `global.css`)
+- Favicon `static/favicon/...` (reference in `app.html`)
