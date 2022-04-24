@@ -8,17 +8,17 @@
 	
 </script>
 
+<a href="/synopsis">Synopsis</a>
+
 <main on:mouseenter={()=> readable = true} on:mouseleave={()=> readable = false}>
 	<Text {debug} {readable} {visible} text="
-		[!10] Ho[50]w , c[50]an [!90]
-		[!20] we [50] [!80]
-		[!30] g[50]o [50] off [!70]
-		[!40] gr[50]id [50] an[50]d [!60]
-		[!50] br[50]eak [50] wi[50]th [!50]
-		[!60] our [50] [!40]
-		[!70] tem[50]plat[50]ed [!30]
-		[!80] rea[50]lity [!20]
-		[!90] ? [!10]
+		[!0] Ne[40]ver Rea[40]dy [!40]
+		[!0] A Co[40]ngre[30]ss on [!20]
+		[!20] th[60]e Visua[20]lity of
+		[!40] the I[60]nter[40]net [!10]
+		[!100] 9.—11. J[20]une 
+		[!100] 20[30]22
+		[!50] HFB[50]K Hamburg [!10]
 	" />
 </main>
 
