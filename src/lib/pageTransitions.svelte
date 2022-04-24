@@ -1,6 +1,5 @@
 <script>
 
-    import {page} from '$app/stores';
     import {fly} from "svelte/transition";
 
     export let url = "";
@@ -12,7 +11,7 @@
 
 </script>
 
-{#key $page.url }
+{#key url }
     <div
         in:fly={{ ...options, delay: options.duration+1 }}
         out:fly={{ ...options }}

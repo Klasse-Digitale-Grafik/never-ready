@@ -13,7 +13,7 @@
 	
 </script>
 
-<p class="line" class:debug>
+<p class="line" class:debug style="--delay:{delay}ms;">
 	{#each snippets as item, i}
 		{#if item instanceof WordObject}
 			<Word text={item.text} delay={delay + (i*30)} {debug} right={i > snippets.length/2.4} />

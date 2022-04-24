@@ -9,7 +9,7 @@
 
 <main on:mouseenter={()=> readable = true} on:mouseleave={()=> readable = false}>
 	<Text {debug} {readable} text="
-		[!10] Ho[50]w , c[50]an [!90]
+		[!10] Ho[50]w c[50]an [!90]
 		[!20] we [50] [!80]
 		[!30] g[50]o [50] off [!70]
 		[!40] gr[50]id [50] an[50]d [!60]

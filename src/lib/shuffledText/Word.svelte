@@ -8,7 +8,7 @@
 	export let right = false;
 	export let delay = 0;
 
-	const transition = {
+	const options = {
 		delay,
 		duration: 1000,
 		y: 0,
@@ -19,8 +19,8 @@
 </script>
 
 <span class="word" class:debug class:right
-	in:fly={{ ...transition, easing: cubicOut, delay: delay + transition.duration + 1000 }}
-	out:fly={{ ...transition, easing: cubicIn }}
+	in:fly={{ ...options, easing: cubicOut, delay: delay + options.duration + 1000 }}
+	out:fly={{ ...options, easing: cubicIn }}
 	>
 	{@html text.replace(' ','&nbsp;')}
 </span>
@@ -30,13 +30,17 @@
 	.word {
 		display: block;
 		flex: 0 0 auto;
-		/* transition-property: opacity, transform;
-		transition-duration: 500ms;
-		transition-timing-function: ease-in-out;
-		transition-delay: var(--delay); */
 	}
 	.debug {
 		background-color: #cfc;
+	}
+
+	/*
+	.word {
+		transition-property: opacity, transform;
+		transition-duration: 500ms;
+		transition-timing-function: ease-in-out;
+		transition-delay: var(--delay);
 	}
 	.invisible {
 		transform: translateX(-500px);
@@ -45,5 +49,6 @@
 	.right.invisible {
 		transform: translateX(500px);
 	}
+	*/
 
 </style>
