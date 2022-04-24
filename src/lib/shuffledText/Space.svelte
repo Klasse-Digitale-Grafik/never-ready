@@ -2,10 +2,16 @@
 	
 	export let expanded = true;
 	export let width = 100;
+	export let debug = false;
 	
 </script>
 
-<span class="space" class:expanded style="--width:{width}%" data-width="{width}"></span>
+<span
+	class="space"
+	class:expanded
+	class:debug
+	style="--width:{width}%"
+	data-width="{width}"></span>
 
 <style>
 	
@@ -21,6 +27,16 @@
 	
 	.expanded {
 		flex-basis: var(--width);
+	}
+	
+	.space.debug {
+		background-color: #ccf;
+		overflow: hidden;
+		display: flex;
+		font-size: 10px;
+	}
+	.space.debug:before {
+		content: attr(data-width);
 	}
 
 </style>
