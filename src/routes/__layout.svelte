@@ -25,8 +25,11 @@
 
 <style>
 
+    header {
+        margin: 1rem;
+    }
     main {
-        padding: 1rem;
+        margin: 1rem;
         min-height: 100vh;
     }
 

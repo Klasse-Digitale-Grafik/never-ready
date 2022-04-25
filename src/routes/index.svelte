@@ -3,7 +3,7 @@
 	import Text from '$lib/shuffledText/Text.svelte';
 	
 	let readable = false;
-	let debug = false;
+	let debug = true;
 	
 </script>
 
@@ -16,6 +16,25 @@
 		[!100] 9.—11. J[20]une 
 		[!100] 20[30]22
 		[!50] HFB[50]K Hamburg [!10]
+	" />
+</main>
+
+<main>
+	<Text {debug} text="
+		[!0] Speaker Name
+		[!0] Speaker Name
+		[!0] Speaker Name
+		[!0] Speaker Name
+		[!0] Speaker Name
+	" />
+</main>
+
+<main>
+	<Text {debug} text="
+		[!0] Time
+		[!0] Table
+		[!0] Tickets
+		[!0] Location
 	" />
 </main>
 
