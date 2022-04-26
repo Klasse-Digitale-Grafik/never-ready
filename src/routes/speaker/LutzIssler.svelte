@@ -1,1 +1,0 @@
-<p>Lutz Issler</p>

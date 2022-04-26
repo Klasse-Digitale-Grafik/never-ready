@@ -1,1 +1,0 @@
-<p>Olia Lialina</p>

@@ -1,6 +1,7 @@
+<h1>Kim Boutin, DVTK</h1>
+
 <p>
-Kim Boutin DVTK 
-Kim Boutin is a designer, educator, and researcher. She is the co-founder of DVTK, a digital direction studio based between London and Paris. The studio advises and creates virtual worlds for the digital space. Its approach to interactive design is rooted in forward-thinking strategy, in order to create experiences for a diverse range of clients, from fashion (Kenzo, Coperni, Nike) to arts (Serpentine Galleries, Barbican, ZKM) and tech (Apple, Google, Farfetch).
+    Kim Boutin is a designer, educator, and researcher. She is the co-founder of DVTK, a digital direction studio based between London and Paris. The studio advises and creates virtual worlds for the digital space. Its approach to interactive design is rooted in forward-thinking strategy, in order to create experiences for a diverse range of clients, from fashion (Kenzo, Coperni, Nike) to arts (Serpentine Galleries, Barbican, ZKM) and tech (Apple, Google, Farfetch).
 </p>
 
 <li>
