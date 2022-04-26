@@ -1,5 +1,7 @@
 # neverready
 
+Temporarily hosted on Netlify: https://never-ready.netlify.app
+
 [Svelte](https://svelte.dev) + [SvelteKit](https://kit.svelte.dev) website for 2022 never ready conference.
 
 ## Development
