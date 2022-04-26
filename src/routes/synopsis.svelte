@@ -3,7 +3,6 @@
 	import Text from '$lib/shuffledText/Text.svelte';
 	
 	let readable = false;
-	let debug = false;
 	
 </script>
 

@@ -1,12 +1,14 @@
 <script>
 
+	import { getContext } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { cubicIn, cubicOut } from 'svelte/easing';
 	
 	export let text = '';
-	export let debug = false;
 	export let right = false;
 	export let delay = 0;
+
+	let debug = getContext('debug');
 
 	const options = {
 		delay,

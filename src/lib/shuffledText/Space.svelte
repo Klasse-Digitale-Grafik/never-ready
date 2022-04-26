@@ -1,8 +1,10 @@
 <script>
 	
+	import { getContext } from 'svelte';
 	export let expanded = true;
 	export let width = 100;
-	export let debug = false;
+	
+	let debug = getContext('debug');
 	
 </script>
 

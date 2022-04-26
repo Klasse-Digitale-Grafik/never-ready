@@ -1,5 +1,6 @@
 <script>
 	
+	import { getContext } from 'svelte';
 	import { parseText, WordObject, SpaceObject} from './helpers.js';
 	import Word from './Word.svelte';
 	import Space from './Space.svelte';
@@ -9,8 +10,9 @@
 	
 	export let readable = true;
 	export let delay = 0;
-	export let debug = false;
 	export let href = '';
+
+	let debug = getContext('debug');
 	
 </script>
 
