@@ -7,7 +7,7 @@
 </script>
 
 <main on:mouseenter={()=> readable = true} on:mouseleave={()=> readable = false}>
-	<Text {debug} {readable} text="
+	<Text {readable} text="
 		[!10] Ho[50]w c[50]an [!90]
 		[!20] we [50] [!80]
 		[!30] g[50]o [50] off [!70]
