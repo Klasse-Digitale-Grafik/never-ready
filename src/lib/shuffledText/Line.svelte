@@ -10,10 +10,16 @@
 	export let readable = true;
 	export let delay = 0;
 	export let debug = false;
+	export let href = '';
 	
 </script>
 
-<p class="line" class:debug style="--delay:{delay}ms;">
+<svelte:element this={href ? 'a' : 'p'}
+	class="line" class:debug
+	style="--delay:{delay}ms;"
+	{href} sveltekit:preload
+	>
+	
 	{#each snippets as item, i}
 		{#if item instanceof WordObject}
 			<Word text={item.text} delay={delay + (i*30)} {debug} right={i > snippets.length/2.4} />
@@ -21,7 +27,8 @@
 			<Space {...item} expanded={item.expanded === readable} {debug} />
 		{/if}
 	{/each}
-</p>
+
+</svelte:element>
 
 <style>
 	

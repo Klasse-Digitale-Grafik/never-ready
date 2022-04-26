@@ -10,11 +10,6 @@
 
 </script>
 
-<header>
-    <a href="/">Index</a>
-    <a href="/synopsis">Synopsis</a>
-</header>
-
 <main>
     <PageTransitions {url}>
         <slot />

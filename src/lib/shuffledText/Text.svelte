@@ -5,6 +5,7 @@
 	
 	export let debug = false;
 	export let readable = true;
+	export let href = '';
 
 	export let text = '';
 	let lines = breakLines( text );
@@ -12,7 +13,7 @@
 </script>
 
 {#each lines as line, i}
-	<Line {debug} {readable} delay={100*i} text={line} />
+	<Line {debug} {href} {readable} delay={100*i} text={line} />
 {/each}
 
 <style>
