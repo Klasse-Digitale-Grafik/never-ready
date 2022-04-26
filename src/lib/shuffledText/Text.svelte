@@ -12,9 +12,11 @@
 	
 </script>
 
-{#each lines as line, i}
-	<Line {debug} {href} {readable} delay={100*i} text={line} />
-{/each}
+<slot>
+	{#each lines as line, i}
+		<Line {debug} {href} {readable} delay={100*i} text={line} />
+	{/each}
+</slot>
 
 <style>
 </style>
