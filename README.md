@@ -31,7 +31,7 @@ npm run build
 ## Where to edit stuff
 
 - Pages `src/routes/...`
-- Timetable `static/timetable.csv`
+- Timetable `data/timetable.csv`
 - Website Components `src/lib/...`
 - Global CSS `/static/global.css`
 - Static images `static/images/...`
