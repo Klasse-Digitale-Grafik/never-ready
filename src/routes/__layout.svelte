@@ -24,12 +24,9 @@
 
 <style>
 
-    header {
-        margin: 1rem;
-    }
     main {
-        margin: 1rem;
         min-height: 100vh;
+        margin: 0 1rem;
     }
 
 </style>
