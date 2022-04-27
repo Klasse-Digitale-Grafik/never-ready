@@ -14,7 +14,7 @@
         <a target="_blank" rel="noopener nofollow external" href="https://hfbk-hamburg.de/de/hochschule/datenschutzerklärung/">Datenschutzerklärung der HFBK Hamburg</a>
     </p>
 
-    <p><a href="/">Zurück</a></p>
+    <p><a href="/">Zurückzurück</a></p>
 
 </main>
 
