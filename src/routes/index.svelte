@@ -31,7 +31,7 @@
 		<Line {readable} delay={100*5}  href="/speakers/olia-lialina" text={'[!30] [30]Oli[60]a Liali[50]na (DE) [!10]'} />
 		<Line {readable} delay={100*6}  href="/speakers/laiqa-maohid" text={'[!0] [10]Laiq[30]a Mohid (GB)[50] [!80]'} />
 		<Line {readable} delay={100*7}  href="/speakers/laurel-schwulst" text={'[!40] [50]Laurel Schwu[40]lst (US) [!20]'} />
-		<Line {readable} delay={100*8}  href="/speakers/vera-von-de-seyp" text={'[!70] Vera va[50]n de S[20]eyp (NL)[10] [!0]'} />
+		<Line {readable} delay={100*8}  href="/speakers/vera-van-de-seyp" text={'[!70] Vera va[50]n de S[20]eyp (NL)[10] [!0]'} />
 		<Line {readable} delay={100*9}  href="/speakers/harald-peter-stroem" text={'[!40] Har[50]ald Pet[10]er Ström (SE) [!20]'} />
 		<Line {readable} delay={100*10} href="/speakers/yehwan-song" text={'[!50] Yeh[10]wan Song[60] (KR)[40] [!35]'} />
 		<Line {readable} delay={100*11} href="/speakers/liebermann-kiepe-reddemann" text={'[!10] [60]Liebe[40]rmann, Kiepe, [60] [!30]'} />
