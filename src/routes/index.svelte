@@ -42,7 +42,7 @@
 <main>
 	<Text>
 		<Line {readable} delay={0}   href="/timetable" text={'[!0] Timetable'} />
-		<Line {readable} delay={100} href={ticketLink} text={'[!0] Tickets please book your free ticket via the link. As there is limited space, ticketing is mandatory. We also kindly ask you to return your ticket in case you can not make it to the event. Thank You!'} />
+		<Line {readable} delay={100} href={ticketLink} text={'[!0] Tickets Please book your free ticket via the link. As there is limited space, ticketing is mandatory. We also kindly ask you to return your ticket in case you can not make it to the event. Thank You!'} />
 		<Line {readable} delay={200} href="/location" text={'[!0] Location'} />
 	</Text>
 </main>
