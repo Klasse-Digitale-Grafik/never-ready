@@ -3,7 +3,7 @@
 	import { breakLines } from './helpers.js';
 	import Line from './Line.svelte';
 	
-	export let readable = true;
+	export let readable = false;
 	export let href = '';
 
 	export let text = '';
@@ -11,11 +11,13 @@
 	
 </script>
 
-<slot>
-	{#each lines as line, i}
-		<Line {href} {readable} delay={100*i} text={line} />
-	{/each}
-</slot>
+<div on:mouseenter={()=> readable = true} on:mouseleave={()=> readable = false}>
+	<slot {readable}>
+		{#each lines as line, i}
+			<Line {href} {readable} delay={100*i} text={line} />
+		{/each}
+	</slot>
+</div>
 
 <style>
 </style>

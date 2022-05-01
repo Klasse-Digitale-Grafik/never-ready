@@ -12,6 +12,8 @@
 	export let delay = 0;
 	export let href = '';
 
+	let target = href.startsWith('http') ? '_blank' : '';
+
 	let debug = getContext('debug');
 	
 </script>
@@ -19,7 +21,10 @@
 <svelte:element this={href ? 'a' : 'p'}
 	class="line" class:debug
 	style="--delay:{delay}ms;"
-	{href} sveltekit:preload
+	rel="noopener noreferrer"
+	{href}
+	{target}
+	sveltekit:preload
 	>
 	
 	{#each snippets as item, i}
