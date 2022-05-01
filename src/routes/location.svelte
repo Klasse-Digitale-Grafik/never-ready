@@ -1,14 +1,42 @@
-<p>Location</p>
-Please count in enough time for your arrival, so that we can all start together and time.
+<main>
 
-As the pandemic situation is still around we ask you to take care, stay safe and do not attend if you feel certain symptoms.
-Please act according to current pandemic regulations in Germany/ Hamburg.
+    <h1>Location</h1>
 
-University of fine Arts Hamburg
-Lerchenfeld 2
-22081 Hamburg
+    <p>
+        Please count in enough time for your arrival, so that we can all start together in time.
+    </p>
 
-U3 Mundsburg
-S1, S11 Landwehr
-U1 Wartenau
-Bus 25, 606, 172 Uferstraße
+    <p>
+        As the pandemic situation is still around we ask you to take care, stay safe and do not attend if you feel certain symptoms.
+        Please act according to current pandemic regulations in Germany or Hamburg.
+    </p>
+
+    <p>
+        <a target="_blank" rel="noopener noreferrer external" href="https://hfbk-hamburg.de">University of fine Arts Hamburg</a>
+        <br />
+        <a target="_blank" rel="noopener noreferrer external" href="">
+            Lerchenfeld 2
+            <br />
+            22081 Hamburg
+        </a>
+    </p>
+
+    <p>
+        <a target="_blank" rel="noopener noreferrer external" href="">U3 Mundsburg</a>
+        <br />
+        <a target="_blank" rel="noopener noreferrer external" href="">S1, S11 Landwehr</a>
+        <br />
+        <a target="_blank" rel="noopener noreferrer external" href="">U1 Wartenau</a>
+        <br />
+        <a target="_blank" rel="noopener noreferrer external" href="">Bus 25, 606, 172 Uferstraße</a>
+    </p>
+
+</main>
+
+<style>
+
+    h1, p {
+        margin: 1rem 0;
+    }
+
+</style>

@@ -2,15 +2,13 @@
 	
 	import Text from '$lib/shuffledText/Text.svelte';
 	import Line from '$lib/shuffledText/Line.svelte';
-	
-	let readable = true;
 
 	const ticketLink = 'https://eventbrite.com';
 	
 </script>
 
-<main on:mouseenter={()=> readable = true} on:mouseleave={()=> readable = false}>
-	<Text {readable} href="/synopsis" text="
+<main>
+	<Text href="/synopsis" text="
 		[!40] Ne[20]ver Rea[40]dy[20] [!100]
 		[!10] [40]A Co[40]ngre[30]ss on [!20]
 		[!40] th[15]e Visua[60]lity of [!40]
@@ -22,7 +20,7 @@
 </main>
 
 <main>
-	<Text>
+	<Text let:readable>
 		<Line {readable} delay={0}      text={'[!80] [10]with[70] [!50]'} />
 		<Line {readable} delay={100*1}  href="/speakers/dvtk" text={'[!70] DVT[60]K (GB/FR) [!20]'} />
 		<Line {readable} delay={100*2}  href="/speakers/kexin-hao" text={'[!70] Kex[40]in Ha[60]o (NL) [!10]'} />
@@ -40,7 +38,7 @@
 </main>
 
 <main>
-	<Text>
+	<Text let:readable>
 		<Line {readable} delay={0}   href="/timetable" text={'[!50] [60]Time[10]tab[30]le[!40]'} />
 		<Line {readable} delay={100} href={ticketLink} text={'[!30] [20]Ticke[10]ts[!10]'} />
 		<Line {readable} delay={100} href={ticketLink} text={'[!30] Please bo[20]ok your free ticke[30]t via the link.[!0]'} />
