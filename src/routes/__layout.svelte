@@ -23,8 +23,6 @@
     </PageTransition>
 </div>
 
-<Footer {url} />    
-
 <style>
 
     div {
