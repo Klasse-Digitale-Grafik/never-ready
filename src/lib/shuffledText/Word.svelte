@@ -1,6 +1,6 @@
 <script>
 
-	import { getContext } from 'svelte';
+	import { debug } from '$lib/config.js';
 	import { fly } from 'svelte/transition';
 	import { cubicIn, cubicOut } from 'svelte/easing';
 	
@@ -8,10 +8,8 @@
 	export let right = false;
 	export let delay = 0;
 
-	let debug = getContext('debug');
-
 	const options = {
-		delay,
+		delay: delay % 1000,
 		duration: 1000,
 		y: 0,
 		opacity: 0,

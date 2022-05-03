@@ -3,7 +3,7 @@
 	import Text from '$lib/shuffledText/Text.svelte';
 	import Line from '$lib/shuffledText/Line.svelte';
 
-	import { config } from '$lib/config.js';
+	import { ticketlink } from '$lib/config.js';
 	
 </script>
 
@@ -40,12 +40,12 @@
 <main>
 	<Text let:readable>
 		<Line {readable} delay={0}   href="/timetable" text={'[!50] [60]Time[10]tab[30]le[!40]'} />
-		<Line {readable} delay={100} href={config.ticketlink} text={'[!30] [20]Ticke[10]ts[!10]'} />
-		<Line {readable} delay={100} href={config.ticketlink} text={'[!30] Please bo[20]ok your free ticke[30]t via the link.[!0]'} />
-		<Line {readable} delay={100} href={config.ticketlink} text={'[!0] As[40] there is limited space, tick[10]eting is mandatory.'} />
-		<Line {readable} delay={100} href={config.ticketlink} text={'[!0] We also ki[10]ndly ask you to ret[30]urn your ticket[!20]'} />
-		<Line {readable} delay={100} href={config.ticketlink} text={'[!0] [10]in case yo[20]u can not make it to t[10]he event.[20]'} />
-		<Line {readable} delay={100} href={config.ticketlink} text={'[!70] [20]Than[40]k You![50]'} />
+		<Line {readable} delay={100} href={ticketlink} text={'[!30] [20]Ticke[10]ts[!10]'} />
+		<Line {readable} delay={100} href={ticketlink} text={'[!30] Please bo[20]ok your free ticke[30]t via the link.[!0]'} />
+		<Line {readable} delay={100} href={ticketlink} text={'[!0] As[40] there is limited space, tick[10]eting is mandatory.'} />
+		<Line {readable} delay={100} href={ticketlink} text={'[!0] We also ki[10]ndly ask you to ret[30]urn your ticket[!20]'} />
+		<Line {readable} delay={100} href={ticketlink} text={'[!0] [10]in case yo[20]u can not make it to t[10]he event.[20]'} />
+		<Line {readable} delay={100} href={ticketlink} text={'[!70] [20]Than[40]k You![50]'} />
 		<Line {readable} delay={200} href="/location" text={'[!20] [40]Loc[20]atio[10]n[30]'} />
 	</Text>
 </main>

@@ -1,6 +1,6 @@
 <script>
 	
-	import { getContext } from 'svelte';
+	import { debug } from '$lib/config.js';
 	import { parseText, WordObject, SpaceObject} from './helpers.js';
 	import Word from './Word.svelte';
 	import Space from './Space.svelte';
@@ -13,8 +13,6 @@
 	export let href = '';
 
 	let target = href.startsWith('http') ? '_blank' : '';
-
-	let debug = getContext('debug');
 	
 </script>
 

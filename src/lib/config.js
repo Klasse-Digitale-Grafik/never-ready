@@ -1,5 +1,3 @@
-export let config = {
+export const debug = false;
 
-    ticketlink: 'https://eventbrite.com'
-
-};
+export const ticketlink = 'https://eventbrite.com';
