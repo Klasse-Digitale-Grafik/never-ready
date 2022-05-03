@@ -1,8 +1,19 @@
+<script>
+	import Text from '$lib/shuffledText/Text.svelte';
+</script>
+
 <svelte:head>
     <title>Never Ready: Kexin Hao</title>
 </svelte:head>
 
-<h1>Kexin Hao</h1>
+<Text readable={true} text="
+    [20] Kexin Hao
+" />
+
+<nav>
+    <a href="https://howkexin.com/">web</a>
+    <a href="https://www.instagram.com/kexin_hao/">instagram</a>
+</nav>
 
 <p>
     Kexin Hao is a visual artist and designer born in Beijing and based in The Netherlands. 
@@ -11,7 +22,11 @@
     boundaries between art and non-art space. Using a daring visual language, the work is a constant swing between intimate close-up on personal stories and zoom-out to collective narratives; between a past of political heaviness and a flashy modernity rendered in humour and sarcasm. In her recent works, Kexin investigates in the themes of body, rituals, health, archive, and collective memory.
 </p>
 
-<li>
-    <a href="https://howkexin.com/">web</a>
-    <a href="https://www.instagram.com/kexin_hao/">instagram</a>
-</li>
+<style>
+    nav, p {
+        margin-top: 1em;
+    }
+    nav a {
+        display: block;
+    }
+</style>

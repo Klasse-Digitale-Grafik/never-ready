@@ -1,8 +1,20 @@
+<script>
+	import Text from '$lib/shuffledText/Text.svelte';
+</script>
+
 <svelte:head>
     <title>Never Ready: Liebermann Kiepe Reddemann</title>
 </svelte:head>
 
-<h1>Liebermann Kiepe Reddemann</h1>
+<Text readable={true} text="
+    [20] Liebermann Kiepe Reddemann
+" />
+
+<nav>
+    <a href="http://liebermannkiepereddemann.de/">web</a>
+    <a href="http://hallointer.net/">blog von david</a>
+    <a href="https://www.instagram.com/liebermannkiepereddemann/">instagram</a>
+</nav>
 
 <p>
     Liebermann Kiepe Reddemann ist ein Grafikdesignstudio mit digitalem Schwerpunkt. David Liebermann und Jana Reddemann sind Masterabsolventen der Klasse Grafik der HFBK Hamburg, Maximilian Kiepe studierte im Master Digitale Medien an der HFK Bremen. 
@@ -11,8 +23,11 @@
     Seit 2017 unterrichten sie an unterschiedlichen Hochschulen, mitunter an der HFBK Hamburg, der HFK Bremen, der HGB Leipzig und der Burg Giebichenstein Halle.
 </p>
 
-<li>
-    <a href="http://liebermannkiepereddemann.de/">web</a>
-    <a href="http://hallointer.net/">blog von david</a>
-    <a href="https://www.instagram.com/liebermannkiepereddemann/">instagram</a>
-</li>
+<style>
+    nav, p {
+        margin-top: 1em;
+    }
+    nav a {
+        display: block;
+    }
+</style>

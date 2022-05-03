@@ -1,8 +1,23 @@
+<script>
+	import Text from '$lib/shuffledText/Text.svelte';
+</script>
+
 <svelte:head>
     <title>Never Ready: Harald Peter Ström</title>
 </svelte:head>
 
-<h1>Harald Peter Ström</h1>
+<Text readable={true} text="
+    [20] Harald Peter Ström
+" />
+
+<nav>
+    <a href="https://harald.peter.stream">Web</a>
+    <a href="https://words.dance">blog</a>
+    <a href="https://twitter.com/haraldpeter">twitter</a>
+    <a href="https://instagram.com/haraldpeter">instagram</a>
+    <a href="https://are.na/peter.strom">are.na</a>
+    email: p@kon.st
+</nav>
 
 <p>
     Peter Ström (1978) is a graphic / web designer and educator based in Stockholm, Sweden.
@@ -12,11 +27,11 @@
     Currently (2022) Peter works on a few design commussions with Konst & Teknik, researches the preservation of digital design as well as being an active board member at contemporary art gallery Issues. 	He is also a slow learner and intrigued sceptic on all thing Web3.
 </p>
 
-<li>
-    <a href="https://harald.peter.stream">Web</a>
-    <a href="https://words.dance">blog</a>
-    <a href="https://twitter.com/haraldpeter">twitter</a>
-    <a href="https://instagram.com/haraldpeter">instagram</a>
-    <a href="https://are.na/peter.strom">are.na</a>
-    email: p@kon.st
-</li>
+<style>
+    nav, p {
+        margin-top: 1em;
+    }
+    nav a {
+        display: block;
+    }
+</style>

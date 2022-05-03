@@ -1,8 +1,21 @@
+<script>
+	import Text from '$lib/shuffledText/Text.svelte';
+</script>
+
 <svelte:head>
     <title>Never Ready: Laurel Schwulst</title>
 </svelte:head>
 
-<h1>Laurel Schwulst</h1>
+<Text readable={true} text="
+    [20] Laurel Schwulst
+" />
+
+<nav>
+    <a href="https://laurelschwulst.com/">web</a>
+    <a href="https://www.are.na/laurel-schwulst">are.na</a>
+    <a href="https://www.instagram.com/roombaghost">Instagram</a>
+    <a href="https://twitter.com/roombaghost">twitter</a>
+</nav>
 
 <p>
     Laurel Schwulst is an American artist, writer, and professor. 
@@ -11,9 +24,11 @@
     published by Ambient Works, 2015).
 </p>
 
-<li>
-    <a href="https://laurelschwulst.com/">web</a>
-    <a href="https://www.are.na/laurel-schwulst">are.na</a>
-    <a href="https://www.instagram.com/roombaghost">Instagram</a>
-    <a href="https://twitter.com/roombaghost">twitter</a>
-</li>
+<style>
+    nav, p {
+        margin-top: 1em;
+    }
+    nav a {
+        display: block;
+    }
+</style>
