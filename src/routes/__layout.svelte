@@ -5,7 +5,6 @@
 <script>
 
     import PageTransition from '$lib/pageTransition.svelte';
-    import Footer from '$lib/Footer.svelte';
     import Meta from '$lib/Meta.svelte';
     import Menu from '$lib/Menu.svelte';
 
