@@ -11,7 +11,7 @@
     [!20] Red[20]demann ([20]DE)
 " />
 
-<nav>
+<nav class="links">
     <a href="http://liebermannkiepereddemann.de/">web</a>
     <a href="http://hallointer.net/">blog von david</a>
     <a href="https://www.instagram.com/liebermannkiepereddemann/">instagram</a>
@@ -27,8 +27,5 @@
 <style>
     nav, p {
         margin-top: 1em;
-    }
-    nav a {
-        display: block;
     }
 </style>

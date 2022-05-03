@@ -14,7 +14,4 @@
     nav, p {
         margin-top: 1em;
     }
-    nav a {
-        display: block;
-    }
 </style>

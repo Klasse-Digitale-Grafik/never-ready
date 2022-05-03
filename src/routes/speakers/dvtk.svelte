@@ -11,7 +11,7 @@
     [!10] [20] DVT[20]K (GB/F[10]R)[!10]
 " />
 
-<nav>
+<nav class="links">
     <a href="https://www.instagram.com/d_v_t_k/">instagram</a>
     <a href="http://www.dvtk.us">website</a>
     <a href="http://loadmo.re">loadmore</a>
@@ -24,8 +24,5 @@
 <style>
     nav, p {
         margin-top: 1em;
-    }
-    nav a {
-        display: block;
     }
 </style>

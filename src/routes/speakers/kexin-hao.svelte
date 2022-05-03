@@ -10,7 +10,7 @@
 [!30] [10] Ke[20]xin Hao (NL[30])
 " />
 
-<nav>
+<nav class="links">
     <a href="https://howkexin.com/">web</a>
     <a href="https://www.instagram.com/kexin_hao/">instagram</a>
 </nav>
@@ -25,8 +25,5 @@
 <style>
     nav, p {
         margin-top: 1em;
-    }
-    nav a {
-        display: block;
     }
 </style>

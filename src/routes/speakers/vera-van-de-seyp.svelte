@@ -10,7 +10,7 @@
     [!20] Ver[10]a van d[20]e Seyp (NL[20])[!30]
 " />
 
-<nav>
+<nav class="links">
     <a href="https://www.instagram.com/veravandeseyp/">instagram</a>
     <a href="https://veravandeseyp.com/">web</a>
 </nav>
@@ -24,8 +24,5 @@
 <style>
     nav, p {
         margin-top: 1em;
-    }
-    nav a {
-        display: block;
     }
 </style>

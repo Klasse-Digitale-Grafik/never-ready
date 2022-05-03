@@ -100,6 +100,11 @@ body, .font-l {
     }
 }
 
+nav.links a {
+    display: block;
+}
+
+nav.links a,
 a.line:hover,
 p a {
     text-decoration: underline;

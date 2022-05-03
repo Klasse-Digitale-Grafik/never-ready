@@ -10,7 +10,7 @@
 [!0] [30] Laiq[20]a Mohi[10]d ([30]GB) [!40]
 " />
 
-<nav>
+<nav class="links">
     <a href="https://twitter.com/laixmoh">twitter</a>
     <a href="http://laimoh.com/">Web</a>
     <a href="https://www.instagram.com/lai.moh/">instagram</a>
@@ -25,8 +25,5 @@
 <style>
     nav, p {
         margin-top: 1em;
-    }
-    nav a {
-        display: block;
     }
 </style>

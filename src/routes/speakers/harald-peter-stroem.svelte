@@ -10,7 +10,7 @@
     [5] Har[10]ald Pete[10]r Ström ([30]SE)[!10]
 " />
 
-<nav>
+<nav class="links">
     <a href="https://harald.peter.stream">Web</a>
     <a href="https://words.dance">blog</a>
     <a href="https://twitter.com/haraldpeter">twitter</a>
@@ -30,8 +30,5 @@
 <style>
     nav, p {
         margin-top: 1em;
-    }
-    nav a {
-        display: block;
     }
 </style>

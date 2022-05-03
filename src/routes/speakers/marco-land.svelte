@@ -10,7 +10,7 @@
 [!30] [0] Mar[30]co L[20]and ([10]DE)[!10]
 " />
 
-<nav>
+<nav class="links">
     <a href="https://marco.land/">web</a>
     <a href="https://ungroup.group/">web</a>
     <a href="https://www.instagram.com/marcoland2/">instagram</a>
@@ -25,8 +25,5 @@
 <style>
     nav, p {
         margin-top: 1em;
-    }
-    nav a {
-        display: block;
     }
 </style>

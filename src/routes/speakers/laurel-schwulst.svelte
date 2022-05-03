@@ -10,7 +10,7 @@
     [10] Lau[30]rel Sch[5]wuls[20]t (US) [!30]
 " />
 
-<nav>
+<nav class="links">
     <a href="https://laurelschwulst.com/">web</a>
     <a href="https://www.are.na/laurel-schwulst">are.na</a>
     <a href="https://www.instagram.com/roombaghost">Instagram</a>
@@ -27,8 +27,5 @@
 <style>
     nav, p {
         margin-top: 1em;
-    }
-    nav a {
-        display: block;
     }
 </style>
