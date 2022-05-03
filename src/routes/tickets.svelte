@@ -1,6 +1,6 @@
 <script>
 
-    const ticketlink = 'https://eventbrite.com';
+    const ticketlink = 'https://www.eventbrite.de/e/never-ready-a-congress-on-the-visuality-of-the-internet-tickets-325734830647';
 
 </script>
 
