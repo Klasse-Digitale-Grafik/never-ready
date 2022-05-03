@@ -8,7 +8,7 @@ function sortByDayAndTime( a, b ){
 
 export async function get() {
 
-    let events = csvToJson.getJsonFromCsv(`data/timetable.csv`)
+    let events = csvToJson.getJsonFromCsv(`static/data/timetable.csv`)
         .sort(sortByDayAndTime);
     
     let earliest = 1500;
