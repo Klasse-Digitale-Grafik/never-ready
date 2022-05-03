@@ -19,8 +19,4 @@
 </main>
 
 <style>
-	main {
-		font-size: 3rem;
-		line-height: 1.1;
-	}
 </style>

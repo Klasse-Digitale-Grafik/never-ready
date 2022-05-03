@@ -51,8 +51,4 @@
 </main>
 
 <style>
-	main {
-		font-size: 3.2rem;
-		line-height: 1;
-	}
 </style>
