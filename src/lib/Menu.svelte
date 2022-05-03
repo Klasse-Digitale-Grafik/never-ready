@@ -5,6 +5,7 @@
 
     let links = [
         ['/', 'Intro'],
+        ['/#speakers', 'Speakers'],
         ['/timetable', 'Timetable'],
         ['/tickets', 'Tickets'],
         ['/location', 'Location'],
@@ -24,6 +25,7 @@
     <nav
         in:fade={{ duration: 300 }}
         out:fade={{ duration: 300, delay: links.length*100 }}
+        on:click={()=>{ open = false }}
         >
         {#each links as [href, title], i}
             <a

@@ -21,7 +21,7 @@
 	" />
 </main>
 
-<main>
+<main id="speakers">
 	<Text let:readable>
 		<Line {readable} delay={0}      text={'[!80] [10]with[70] [!50]'} />
 		<Line {readable} delay={100*1}  href="/speakers/dvtk" text={'[!70] DVT[60]K (GB/FR) [!20]'} />
