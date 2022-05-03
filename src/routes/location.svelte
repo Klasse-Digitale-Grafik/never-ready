@@ -14,7 +14,7 @@
     <p>
         <a target="_blank" rel="noopener noreferrer external" href="https://hfbk-hamburg.de">University of fine Arts Hamburg</a>
         <br />
-        <a target="_blank" rel="noopener noreferrer external" href="">
+        <a target="_blank" rel="noopener noreferrer external" href="https://goo.gl/maps/CHdcB5VwGEwiYXM96">
             Lerchenfeld 2
             <br />
             22081 Hamburg
@@ -22,13 +22,13 @@
     </p>
 
     <p>
-        <a target="_blank" rel="noopener noreferrer external" href="">U3 Mundsburg</a>
+        <a target="_blank" rel="noopener noreferrer external" href="https://goo.gl/maps/tUqm4e4CdDw79ND6A">U3 Mundsburg</a>
         <br />
-        <a target="_blank" rel="noopener noreferrer external" href="">S1, S11 Landwehr</a>
+        <a target="_blank" rel="noopener noreferrer external" href="https://goo.gl/maps/Xz5XeSEEyKqR2XJJ8">S1, S11 Landwehr</a>
         <br />
-        <a target="_blank" rel="noopener noreferrer external" href="">U1 Wartenau</a>
+        <a target="_blank" rel="noopener noreferrer external" href="https://goo.gl/maps/LDdtzStmvTA1xD6z6">U1 Wartenau</a>
         <br />
-        <a target="_blank" rel="noopener noreferrer external" href="">Bus 25, 606, 172 Uferstraße</a>
+        <a target="_blank" rel="noopener noreferrer external" href="https://goo.gl/maps/rpx1MPaYCZaSDctL7">Bus 25, 172, 606 Uferstraße</a>
     </p>
 
 </main>

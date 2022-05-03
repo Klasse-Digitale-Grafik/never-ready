@@ -7,7 +7,7 @@
     </h2>
 
     <p>
-        <a target="_blank" rel="noopener nofollow external" href="https://klassedigitalegrafik.de">
+        <a target="_blank" rel="noopener nofollow external" href="http://digitale-grafik.com">
             Klasse Digitale Grafik<br />
             HFBK Hamburg
         </a>
@@ -16,7 +16,7 @@
     <p>
         Für diese Internetseite gilt das <a target="_blank" rel="noopener nofollow external" href="https://hfbk-hamburg.de/de/hochschule/impressum/">Impressum der HFBK Hamburg</a>.
         <br />
-        Diese Internetseite speichert keine Nutzerdaten, keine Cookies und verwendet keine externen Services Dritter.
+        Es werden keine Nutzerdaten oder Cookies gespeichert und keine externen Services Dritter eingebunden.
         Es gilt die
         <a target="_blank" rel="noopener nofollow external" href="https://hfbk-hamburg.de/de/hochschule/datenschutzerklärung/">Datenschutzerklärung der HFBK Hamburg</a>.
     </p>
