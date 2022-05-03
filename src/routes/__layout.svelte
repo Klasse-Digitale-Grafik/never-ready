@@ -7,12 +7,15 @@
     import PageTransition from '$lib/pageTransition.svelte';
     import Footer from '$lib/Footer.svelte';
     import Meta from '$lib/Meta.svelte';
+    import Menu from '$lib/Menu.svelte';
 
     export let url = '';
 
 </script>
 
 <Meta />
+
+<Menu />
 
 <div>
     <PageTransition {url}>

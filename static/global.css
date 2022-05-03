@@ -18,6 +18,7 @@ ul, ol, li {
 button {
     all: reset;
     display: block;
+    background: inherit;
 }
 
 a {
