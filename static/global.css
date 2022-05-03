@@ -68,7 +68,6 @@ body > div {
     flex-direction: column;
     justify-content: space-between;
 }
-
 /*
 font sizes
 */
@@ -100,6 +99,7 @@ body, .font-l {
     }
 }
 
+a.line:hover,
 p a {
     text-decoration: underline;
     text-decoration-thickness: 1px;

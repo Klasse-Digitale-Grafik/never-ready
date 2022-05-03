@@ -19,8 +19,8 @@
         <slot />
     </PageTransition>
 </div>
-    
-<Footer {url} />
+
+<Footer {url} />    
 
 <style>
 

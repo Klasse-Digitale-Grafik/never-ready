@@ -7,11 +7,11 @@
 <footer>
 
     {#if url !== '/'}
-        <a class="back" href="/" sveltekit:prefetch>Zurück</a>
+        <a class="back" href="/" sveltekit:prefetch>Back</a>
     {/if}
     
     {#if url !== '/impressum'}
-        <a href="/impressum" sveltekit:prefetch>Impressum</a>
+        <a href="/impressum" sveltekit:prefetch>Legal Notice</a>
     {/if}
 
 </footer>
