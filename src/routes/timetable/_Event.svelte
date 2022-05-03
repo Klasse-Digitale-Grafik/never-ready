@@ -24,7 +24,10 @@
 
 <style>  
     
-    li {
+    li :global(a:hover) {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.1em;
     }
 
 </style>

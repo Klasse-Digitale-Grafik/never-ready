@@ -18,7 +18,7 @@
 </svelte:head>
 
 <header class="font-s" style="--steps:{n+2};">
-    <h4></h4>
+    <h4>&nbsp;</h4>
     {#each steps as step, i}
         <h4>{step}</h4>
     {/each}

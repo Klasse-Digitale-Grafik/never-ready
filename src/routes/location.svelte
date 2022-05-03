@@ -39,7 +39,7 @@
 
 <style>
 
-    h1, p {
+    p {
         margin: 0.5em 0;
     }
 
