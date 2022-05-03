@@ -1,16 +1,25 @@
+<script>
+
+    export let url;
+
+</script>
+
 <footer>
-    <p>
+
+    {#if url !== '/'}
+        <a class="back" href="/" sveltekit:prefetch>Zurück</a>
+    {/if}
+    
+    {#if url !== '/impressum'}
         <a href="/impressum" sveltekit:prefetch>Impressum</a>
-    </p>
-    <p>Hamburg 2022</p>
+    {/if}
+
 </footer>
 
 <style>
 
     footer {
-        display: flex;
-        justify-content: space-between;
-        padding: 1rem;
+        margin: 1rem;
     }
 
 </style>

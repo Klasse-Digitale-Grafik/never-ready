@@ -1,32 +1,36 @@
 <script context="module">
-    export const load = async ({ url }) => ({ props: { url } });
+    export const load = async ({ url }) => ({ props: { url: url.pathname } });
 </script>
 
 <script>
 
-    import { setContext } from 'svelte';
-    
+    import { setContext } from 'svelte';    
     import Footer from '$lib/Footer.svelte';
     import PageTransitions from '$lib/pageTransitions.svelte';
-    export let url;
+
+    export let url = '';
 
     setContext('debug', false);
 
 </script>
 
 <main>
-    <PageTransitions {url}>
-        <slot />
-    </PageTransitions>
-</main>
 
-<Footer />
+    <PageTransitions {url}>
+
+        <slot />
+        
+    </PageTransitions>
+    
+</main>
+    
+<Footer {url} />
+
 
 <style>
 
     main {
-        min-height: 100vh;
-        margin: 0 1rem;
+        margin: 1rem;
     }
 
 </style>
