@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Never Ready: Laurel Schwulst</title>
+</svelte:head>
+
 <h1>Laurel Schwulst</h1>
 
 <p>

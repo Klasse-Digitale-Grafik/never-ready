@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Never Ready: Harald Peter Ström</title>
+</svelte:head>
+
 <h1>Harald Peter Ström</h1>
 
 <p>

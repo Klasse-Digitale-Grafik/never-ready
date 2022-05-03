@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Never Ready: Location</title>
+</svelte:head>
+
 <main>
 
     <h1>Location</h1>

@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Never Ready: Marco Land</title>
+</svelte:head>
+
 <h1>Marco Land</h1>
 
 <p>

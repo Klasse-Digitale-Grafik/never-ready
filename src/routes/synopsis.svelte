@@ -4,6 +4,10 @@
 	
 </script>
 
+<svelte:head>
+    <title>Never Ready: Congress</title>
+</svelte:head>
+
 <main>
 	<Text readable={true} text="
 		[!10] Ho[50]w c[50]an [!90]

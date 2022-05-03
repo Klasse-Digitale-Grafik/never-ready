@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Never Ready: Impressum</title>
+</svelte:head>
+
 <main>
 
     <h2>

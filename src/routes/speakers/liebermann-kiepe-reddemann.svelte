@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Never Ready: Liebermann Kiepe Reddemann</title>
+</svelte:head>
+
 <h1>Liebermann Kiepe Reddemann</h1>
 
 <p>

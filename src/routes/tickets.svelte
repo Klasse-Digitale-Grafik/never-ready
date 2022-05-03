@@ -4,6 +4,10 @@
 
 </script>
 
+<svelte:head>
+    <title>Never Ready: Tickets</title>
+</svelte:head>
+
 <main>
 
     <h1>Tickets</h1>

@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Never Ready: Kexin Hao</title>
+</svelte:head>
+
 <h1>Kexin Hao</h1>
 
 <p>

@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Never Ready: Vera van de Seyp</title>
+</svelte:head>
+
 <h1>Vera van de Seyp</h1>
 
 <p>

@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Never Ready: Laiqa Mohid</title>
+</svelte:head>
+
 <h1>Laiqa Mohid</h1>
 
 <p>

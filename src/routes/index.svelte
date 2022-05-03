@@ -5,6 +5,10 @@
 	
 </script>
 
+<svelte:head>
+    <title>Never Ready: 9.–11. Juni 2022</title>
+</svelte:head>
+
 <main>
 	<Text href="/synopsis" text="
 		[!40] Ne[20]ver Rea[40]dy[20] [!100]

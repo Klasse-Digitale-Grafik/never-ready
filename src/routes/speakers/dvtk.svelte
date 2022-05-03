@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Never Ready: Kim Boutin, DVTK</title>
+</svelte:head>
+
 <h1>Kim Boutin, DVTK</h1>
 
 <p>

@@ -13,6 +13,10 @@
 
 </script>
 
+<svelte:head>
+    <title>Never Ready: Timetable</title>
+</svelte:head>
+
 <header class="font-s" style="--steps:{n+1};">
     {#each steps as step, i}
         <h4>{step}</h4>

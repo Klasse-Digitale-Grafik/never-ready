@@ -6,10 +6,13 @@
 
     import PageTransition from '$lib/pageTransition.svelte';
     import Footer from '$lib/Footer.svelte';
+    import Meta from '$lib/Meta.svelte';
 
     export let url = '';
 
 </script>
+
+<Meta />
 
 <div>
     <PageTransition {url}>
