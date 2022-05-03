@@ -4,6 +4,11 @@
 
 <main>
 
+    <h1>
+        <span class="space"></span>
+        Legal Notice
+    </h1>
+
     <h2>
         Never Ready Congress
         <br />
@@ -29,7 +34,7 @@
 
 <style>
 
-    h1, p {
+    h2, p {
         margin: 0.5em 0;
     }
 

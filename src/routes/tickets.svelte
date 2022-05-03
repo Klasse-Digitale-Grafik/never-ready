@@ -10,7 +10,10 @@
 
 <main>
 
-    <h1>Tickets</h1>
+    <h1>
+        <span class="space"></span>
+        Tickets
+    </h1>
 
     <p>
         Please book your free ticket via

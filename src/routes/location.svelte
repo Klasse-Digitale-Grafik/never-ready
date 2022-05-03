@@ -4,7 +4,10 @@
 
 <main>
 
-    <h1>Location</h1>
+    <h1>
+        <span class="space"></span>
+        Location
+    </h1>
 
     <p>
         Please count in enough time for your arrival, so that we can all start together in time.

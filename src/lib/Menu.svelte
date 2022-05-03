@@ -17,11 +17,16 @@
 </script>
 
 {#if open}
-    
     <button on:click={()=>{ open = false }}>
         {@html '&lt;'}
     </button>
+{:else}
+    <button on:click={()=>{ open = true }}>
+        {@html '&gt;'}
+    </button>
+{/if}
 
+{#if open}
     <nav
         in:fade={{ duration: 300 }}
         out:fade={{ duration: 300, delay: links.length*100 }}
@@ -36,13 +41,6 @@
                 >{title}</a>
         {/each}
     </nav>
-
-{:else}
-
-    <button on:click={()=>{ open = true }}>
-        {@html '&gt;'}
-    </button>
-
 {/if}
 
 <style>
