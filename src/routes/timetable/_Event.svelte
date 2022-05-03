@@ -6,8 +6,6 @@
 
 <li title="{event.day} {event.time}">
 
-    <p>{event.day} {event.time}</p>
-
     {#if event.title}
         <h3>{event.title}</h3>
     {/if}

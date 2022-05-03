@@ -28,10 +28,20 @@ export async function get() {
         };
     });
 
+    let days = {};
+
+    events.forEach( event => {
+        if( !days.hasOwnProperty( event.day ) ){
+            days[ event.day ] = [];
+        }
+        days[ event.day ].push( event );
+    });
+
     return {
         body: {
             earliest,
             latest,
+            days,
             events,
         }
     };

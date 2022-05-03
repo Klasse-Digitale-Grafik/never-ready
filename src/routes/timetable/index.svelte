@@ -2,7 +2,7 @@
 
     import Event from './_Event.svelte';
 
-    export let events = [];
+    export let days;
     export let earliest;
     export let latest;
 
@@ -17,25 +17,29 @@
     <title>Never Ready: Timetable</title>
 </svelte:head>
 
-<header class="font-s" style="--steps:{n+1};">
+<header class="font-s" style="--steps:{n+2};">
+    <h4></h4>
     {#each steps as step, i}
         <h4>{step}</h4>
     {/each}
 </header>
 
-<ul class="font-s" style="--steps:{n+1};">
-    {#each events as event, i}
-        <div class="event" style="--slot:{event.slot}; --row:{i+1};">
-            <Event {event} />
-        </div>
-    {/each}
-</ul>
+{#each Object.entries(days) as [day, events]}
+    <ul class="font-s" style="--steps:{n+2};">
+        <div class="day">{new Date(day).toLocaleDateString('en-GB',{ weekday: 'long'})}</div>
+        {#each events as event, i}
+            <div class="event" style="--slot:{event.slot+1}; --row:{i+1};">
+                <Event {event} />
+            </div>
+        {/each}
+    </ul>
+{/each}
 
 <style>
 
-    header {
+    header, .day {
         position: sticky;
-        top: 0;
+        top: 1rem;
         z-index: 10;
     }
     header h4 {
