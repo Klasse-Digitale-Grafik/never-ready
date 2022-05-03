@@ -103,7 +103,7 @@ body, .font-l {
 a.line:hover,
 p a {
     text-decoration: underline;
-    text-decoration-thickness: 1px;
+    text-decoration-thickness: 4px;
     text-underline-offset: 0.1em;
 }
 
