@@ -30,10 +30,10 @@
 		<Line {readable} delay={100*6}  href="/speakers/laiqa-maohid" text={'[!0] [10]Laiq[30]a Mohid (GB)[50] [!80]'} />
 		<Line {readable} delay={100*7}  href="/speakers/laurel-schwulst" text={'[!10] [50]Laurel Schwu[40]lst (US) [!70]'} />
 		<Line {readable} delay={100*8}  href="/speakers/vera-van-de-seyp" text={'[!10] Vera va[50]n de S[20]eyp (NL)[10] [!50]'} />
-		<Line {readable} delay={100*9}  href="/speakers/harald-peter-stroem" text={'[!10] Har[50]ald Pet[10]er Ström (SE) [!50]'} />
-		<Line {readable} delay={100*10} href="/speakers/yehwan-song" text={'[!20] Yeh[10]wan Song[60] (KR)[40] [!60]'} />
-		<Line {readable} delay={100*11} href="/speakers/liebermann-kiepe-reddemann" text={'[!50] [60]Liebe[40]rmann, Kiepe, [60] [!10]'} />
-		<Line {readable} delay={100*12} href="/speakers/liebermann-kiepe-reddemann" text={'[!10] Reddemann (DE) [!50]'} />
+		<Line {readable} delay={100*9}  href="/speakers/harald-peter-stroem" text={'[!30] Har[50]ald Pet[10]er Ström (SE) [!10]'} />
+		<Line {readable} delay={100*10} href="/speakers/yehwan-song" text={'[!50] Yeh[10]wan Song[60] (KR)[40] [!10]'} />
+		<Line {readable} delay={100*11} href="/speakers/liebermann-kiepe-reddemann" text={'[!30] [60]Liebe[40]rmann, Kiepe, [60] [!20]'} />
+		<Line {readable} delay={100*12} href="/speakers/liebermann-kiepe-reddemann" text={'[!20] [30]Redd[20]emann (DE)[10] [!30]'} />
 	</Text>
 </main>
 
