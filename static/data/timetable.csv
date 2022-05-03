@@ -1,25 +1,24 @@
-day;time;title;subtitle;location
-2022-06-09;14:00;Introduction & Performative opening;;Aula;
+day;time;title;subtitle;location;link
+2022-06-09;14:00;Introduction & Performative Opening;;Aula;
 2022-06-09;15:00;Laurel Schwulst;;Aula;laurel-schwulst
-2022-06-09;16:00;short break;;;
-2022-06-09;16:15;Olia Lialina & Harald Peter Ström;on Archiving the internet (Panel);;
-2022-06-09;17:45;short break;;;
-2022-06-09;18:00;DVTK;;Aula;dvtk
+2022-06-09;16:00;Short Break;;;
+2022-06-09;16:15;Olia Lialina & Harald Peter Ström;Panel;;(Einzelne Speaker)
+2022-06-09;17:45;Short Break;;;
+2022-06-09;18:00;DVTK - Kim Boutin;;Aula;dvtk
 2022-06-09;19:00;Kexin Hao;;Aula;kexin-hao
-2022-06-09;20:00;Ende + evening program;;;
-2022-06-09;21:00;eventl. Students Meeting;;;
-2022-06-10;10:00;Breakfast / Yoga;(Kim Boutin);Mensa, (...);
+2022-06-09;20:00;Evening Program t.b.a;;;
+2022-06-10;10:00;Breakfast / Yoga;;;
 2022-06-10;11:00;Yehwan Song;;Aula;yehwan-song
 2022-06-10;12:00;Lutz Issler;;Aula;lutz-issler
-2022-06-10;13:00;Lunch Break;;;
+2022-06-10;13:00;Lunch Break;;Mensa;
 2022-06-10;14:00;Laiqa Mohid;;Aula;laiqa-mohid
-2022-06-10;15:00;Vera van de Seyp;;Aula;cera-con-de-seyp
-2022-06-10;16:00;short break;;;
-2022-06-10;16:15;(Laiqa Mohid), Yehwan Song, Marco Land;Panel;Aula;
-2022-06-10;17:45;short break;;;
-2022-06-10;18:00;Liebermann Kiepe Reddemann;;Aula;liebermann-kiepe-reddemann
-2022-06-10;19:00;evening Program & Party;;;
-2022-06-11;10:00;Breakfast / Yoga;;Mensa, (...);
-2022-06-11;11:00;(free slot);;Aula;
-2022-06-11;12:00;(free slot);Panel;Aula;
-2022-06-11;13:00;open end;;;
+2022-06-10;15:00;Vera van de Seyp;;Aula;vera-van-de-seyp
+2022-06-10;16:00;Short Break;;;
+2022-06-10;16:15;Laiqa Mohid, Yehwan Song, Marco Land;Panel;Aula;(Einzelne Speaker)
+2022-06-10;17:45;Short Break;;;
+2022-06-10;18:00;Liebermann Kiepe Reddemann;"Scroll Bar";;liebermann-kiepe-reddemann
+2022-06-10;19:00;Evening Program & Party t.b.a;;;
+2022-06-11;10:00;Breakfast ;;;
+2022-06-11;11:00;t.b.a;;Aula;
+2022-06-11;12:00;t.b.a;Panel;Aula;
+2022-06-11;13:00;Open End;;;
