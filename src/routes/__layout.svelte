@@ -4,32 +4,24 @@
 
 <script>
 
-    import { setContext } from 'svelte';    
+    import PageTransition from '$lib/pageTransition.svelte';
     import Footer from '$lib/Footer.svelte';
-    import PageTransitions from '$lib/pageTransitions.svelte';
 
     export let url = '';
 
-    setContext('debug', false);
-
 </script>
 
-<main>
-
-    <PageTransitions {url}>
-
+<div>
+    <PageTransition {url}>
         <slot />
-        
-    </PageTransitions>
-    
-</main>
+    </PageTransition>
+</div>
     
 <Footer {url} />
 
-
 <style>
 
-    main {
+    div {
         margin: 1rem;
     }
 

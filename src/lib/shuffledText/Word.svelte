@@ -18,10 +18,11 @@
 	
 </script>
 
-<span class="word" class:debug class:right
+<!-- <span class="word" class:debug class:right
 	in:fly={{ ...options, easing: cubicOut, delay: delay + options.duration + 1000 }}
 	out:fly={{ ...options, easing: cubicIn }}
-	>
+	> -->
+<span class="word" class:debug class:right>
 	{@html text.replace(' ','&nbsp;')}
 </span>
 
