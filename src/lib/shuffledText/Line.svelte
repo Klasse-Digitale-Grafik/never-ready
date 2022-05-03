@@ -27,9 +27,9 @@
 	
 	{#each snippets as item, i}
 		{#if item instanceof WordObject}
-			<Word text={item.text} delay={delay + (i*30)} {debug} right={i > snippets.length/2.4} />
+			<Word text={item.text} delay={delay + (i*30)} right={i > snippets.length/2.4} />
 		{:else if item instanceof SpaceObject}
-			<Space {...item} expanded={item.expanded === readable} {debug} />
+			<Space {...item} expanded={item.expanded === readable} />
 		{/if}
 	{/each}
 
