@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Lutz Issler
+[!0] [20] Lut[30]z Is[10]sler (DE)[!50]
 " />
 
 <style>

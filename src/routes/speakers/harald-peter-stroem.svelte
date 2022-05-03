@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Harald Peter Ström
+    [5] Har[10]ald Pete[10]r Ström ([30]SE)[!10]
 " />
 
 <nav>

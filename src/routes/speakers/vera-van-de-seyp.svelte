@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Vera van de Seyp
+    [!20] Ver[10]a van d[20]e Seyp (NL[20])[!30]
 " />
 
 <nav>

@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Olia Lialina
+[!10] [30] Oli[10]a Lial[30]ina (DE)[!10]
 " />
 
 <style>

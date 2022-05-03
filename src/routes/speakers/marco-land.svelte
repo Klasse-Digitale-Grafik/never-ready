@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Marco Land
+[!30] [0] Mar[30]co L[20]and ([10]DE)[!10]
 " />
 
 <nav>

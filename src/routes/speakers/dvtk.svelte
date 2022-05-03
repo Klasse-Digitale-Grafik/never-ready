@@ -7,7 +7,8 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Kim Boutin, DVTK
+    [!10] Ki[30]m Bouti[20]n
+    [!10] [20] DVT[20]K (GB/F[10]R)[!10]
 " />
 
 <nav>

@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Yehwan Song
+    [10] Yehw[30]an Son[10]g (K[15]R) [!20]
 " />
 
 <style>

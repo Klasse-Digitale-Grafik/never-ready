@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Laiqa Mohid
+[!0] [30] Laiq[20]a Mohi[10]d ([30]GB) [!40]
 " />
 
 <nav>

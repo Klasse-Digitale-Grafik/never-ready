@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Kexin Hao
+[!30] [10] Ke[20]xin Hao (NL[30])
 " />
 
 <nav>

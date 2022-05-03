@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Laurel Schwulst
+    [10] Lau[30]rel Sch[5]wuls[20]t (US) [!30]
 " />
 
 <nav>

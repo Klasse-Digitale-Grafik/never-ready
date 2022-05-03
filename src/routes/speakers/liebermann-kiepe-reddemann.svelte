@@ -7,7 +7,8 @@
 </svelte:head>
 
 <Text readable={true} text="
-    [20] Liebermann Kiepe Reddemann
+    [!0] Lieb[30]erman[20]n Kiepe[!30]
+    [!20] Red[20]demann ([20]DE)
 " />
 
 <nav>
