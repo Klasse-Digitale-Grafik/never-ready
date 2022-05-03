@@ -79,7 +79,7 @@ font sizes
 
 body, .font-l {
     /* default media (mobile) */
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 @media (min-width: 720px){
     /* tablet */
@@ -90,13 +90,13 @@ body, .font-l {
 @media (min-width: 1280px){
     /* laptop */
     body, .font-l {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
 @media (min-width: 1900px){
     /* desktop */
     body, .font-l {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 
