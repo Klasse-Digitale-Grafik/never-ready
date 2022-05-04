@@ -7,6 +7,7 @@
     import PageTransition from '$lib/pageTransition.svelte';
     import Meta from '$lib/Meta.svelte';
     import Menu from '$lib/Menu.svelte';
+    import Footer from '$lib/Footer.svelte';
 
     export let url = '';
 
@@ -21,6 +22,8 @@
         <slot />
     </PageTransition>
 </div>
+
+<Footer />
 
 <style>
 
