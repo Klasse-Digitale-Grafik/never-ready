@@ -16,18 +16,21 @@
     </h2>
 
     <p>
-        <a target="_blank" rel="noopener nofollow external" href="http://digitale-grafik.com">
-            Klasse Digitale Grafik<br />
+        <a target="_blank" rel="noopener nofollow external" href="http://digitale-grafik.com" title="Website Klasse Digitale Grafik">
+            Klasse Digitale Grafik
+        </a>
+        <br />
+        <a target="_blank" rel="noopener nofollow external" href="https://hfbk-hamburg.de" title="Website HFBK Hamburg">
             HFBK Hamburg
         </a>
     </p>
     
     <p>
-        Für diese Internetseite gilt das <a target="_blank" rel="noopener nofollow external" href="https://hfbk-hamburg.de/de/hochschule/impressum/">Impressum der HFBK Hamburg</a>.
+        Für diese Internetseite gilt das <a target="_blank" rel="noopener nofollow external" href="https://hfbk-hamburg.de/de/hochschule/impressum/" title="Impressum">Impressum der HFBK Hamburg</a>.
         <br />
         Es werden keine Nutzerdaten oder Cookies gespeichert und keine externen Services Dritter eingebunden.
         Es gilt die
-        <a target="_blank" rel="noopener nofollow external" href="https://hfbk-hamburg.de/de/hochschule/datenschutzerklärung/">Datenschutzerklärung der HFBK Hamburg</a>.
+        <a target="_blank" rel="noopener nofollow external" href="https://hfbk-hamburg.de/de/hochschule/datenschutzerklärung/" title="Datenschutzerklärung">Datenschutzerklärung der HFBK Hamburg</a>.
     </p>
 
 </main>

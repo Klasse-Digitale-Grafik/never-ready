@@ -6,7 +6,7 @@
     let links = [
         ['/#about', 'About'],
         ['/#speakers', 'Speakers'],
-        ['/timetable', 'Timetable'],
+        [false, 'Timetable t.b.a.'],
         ['/tickets', 'Tickets'],
         ['/location', 'Location'],
         ['/impressum', 'Legal Notice'],
@@ -30,7 +30,6 @@
     <nav
         in:fade={{ duration: 300 }}
         out:fade={{ duration: 300, delay: links.length*100 }}
-        on:click={()=>{ open = false }}
         >
         {#each links as [href, title], i}
             <div
@@ -38,7 +37,11 @@
                 out:fly={{ duration: 300, delay: i*100, x:300, opacity: 0, easing: cubicIn }}
                 >
                 <span class="space"></span>
-                <a {href} sveltekit:prefetch>{title}</a>
+                {#if href}
+                    <a {href} sveltekit:prefetch on:click={()=>{ open = false }}>{title}</a>
+                {:else}
+                    {title}
+                {/if}
             </div>
         {/each}
     </nav>
