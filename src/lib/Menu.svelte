@@ -33,12 +33,13 @@
         on:click={()=>{ open = false }}
         >
         {#each links as [href, title], i}
-            <a
-                {href}
-                sveltekit:prefetch
+            <div
                 in:fly={{ duration: 300, delay: 100 + i*100, x:-300, opacity: 0, easing: cubicOut }}
                 out:fly={{ duration: 300, delay: i*100, x:300, opacity: 0, easing: cubicIn }}
-                >{title}</a>
+                >
+                <span class="space"></span>
+                <a {href} sveltekit:prefetch>{title}</a>
+            </div>
         {/each}
     </nav>
 {/if}
@@ -63,13 +64,10 @@
         left: 0;
         top: 0;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
         flex-direction: column;
-    }
-
-    a {
-        display: block;
+        padding: 1rem;
     }
 
     a:hover {
