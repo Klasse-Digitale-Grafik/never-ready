@@ -6,6 +6,17 @@ function sortByDayAndTime( a, b ){
     return keyA - keyB;
 }
 
+function getMinutes( time ){
+    if( !time ){
+        return 0;
+    }
+    time = time.split(':');
+    if(time.length < 1){
+        return 0;
+    }
+    return parseInt( time[1] );
+}
+
 export async function get() {
 
     let events = csvToJson.getJsonFromCsv(`static/data/timetable.csv`)
@@ -22,8 +33,10 @@ export async function get() {
     events = events.map( event => {
         let time = parseInt( event.time.replace(/\D/g,'') );
         let slot = 1 + Math.floor( ( time - earliest ) / 100 );
+        let minutes = getMinutes( event.time );
         return {
             ...event,
+            minutes,
             slot
         };
     });
