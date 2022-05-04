@@ -26,7 +26,10 @@
 
 {#each Object.entries(days) as [day, events]}
     <ul class="font-s" style="--steps:{n+2};">
-        <div class="day">{new Date(day).toLocaleDateString('en-GB',{ weekday: 'long'})}</div>
+        <div class="day">
+            {new Date(day).toLocaleDateString('en-GB',{ weekday: 'long'})}<br />
+            {new Date(day).toLocaleDateString('en-GB', { year: '2-digit', month: 'short', day: 'numeric' })}
+        </div>
         {#each events as event, i}
             <div class="event" style="--slot:{event.slot+1}; --row:{i+1};">
                 <Event {event} />
