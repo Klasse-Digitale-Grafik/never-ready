@@ -66,9 +66,31 @@
 	</p>
 </main>
 
+<main id="team" class="team">
+	<p>
+		Team:
+		Moritz Ebeling,
+		Stina Frenz,
+		Wiebke Grieshop,
+		Kim Kleinert,
+		Karla Krey,
+		Tigran Saakyan,
+		Torben Spieker,
+		Stephan Thiel,
+		Leoni Voltz,
+		Yulia Wagner;
+	</p>
+	<Text let:readable>
+		<Line {readable} href="http://digitale-grafik.com" text={'[!30][10]Klas[20]se Dig[10]itale Grafi[30]k[!10]'} />
+	</Text>
+	<p>
+		Prof. Christoph Knoth, Prof. Konrad Renner;
+	</p>
+</main>
+
 <style>
 
-	.about {
+	.about, .team {
 		margin-top: 1em;
 	}
 	.about p + p {
