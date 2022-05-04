@@ -10,7 +10,7 @@
 </svelte:head>
 
 <main>
-	<Text href="/synopsis" text="
+	<Text text="
 		[!40][5]Ne[20]ver Rea[40]dy[20] [!100]
 		[!10][40]A Co[40]ngre[30]ss on [!20]
 		[!40]th[15]e Visua[60]lity of [!40]
@@ -51,5 +51,28 @@
 	</Text>
 </main>
 
+<main id="about" class="about">
+	<p>
+		From the  9th to the 11th of June 2022 
+		we are organizing a congress
+		about the visuality 
+		of the Internet.
+		Under the title Never Ready  
+		it will take place at our art school, the 
+		HFBK in Hamburg, Germany.
+	</p>
+	<p>
+		The multitude of spaces in the online world have widely been unified in the last few years.  Innovation and finding your own unique solutions have been pushed aside, easing us into lazy comfort. Together with designers, writers and artists from all over the world we want to go off grid for a breather and get out of our cozy pillows. Together we want to be nostalgic about a new web that has yet to be conjured by us and share new possibilities and viewpoints for a happier and more diverse time in front of and behind the screen. We envision a digital detox from the online anecdotes and how the internet should look and delve deep into new narrations that break up with our templated reality. To overthrow the golden rules of web design to which we are bound and embrace lost or new ways of how the web works.	
+	</p>
+</main>
+
 <style>
+
+	.about {
+		margin-top: 1em;
+	}
+	.about p + p {
+		margin-top: 1em;
+	}
+
 </style>

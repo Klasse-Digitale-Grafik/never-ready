@@ -4,7 +4,7 @@
     import { cubicIn, cubicOut } from 'svelte/easing';
 
     let links = [
-        ['/', 'Intro'],
+        ['/#about', 'About'],
         ['/#speakers', 'Speakers'],
         ['/timetable', 'Timetable'],
         ['/tickets', 'Tickets'],
