@@ -26,7 +26,7 @@
     
     li :global(a:hover) {
         text-decoration: underline;
-        text-decoration-thickness: 1.3px;
+        text-decoration-thickness: 0.07em;
         text-underline-offset: 0.1em;
     }
 

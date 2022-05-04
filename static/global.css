@@ -73,16 +73,19 @@ body > div {
 font sizes
 */
 
-.font-s {
-    font-size: 1rem;
-}
 
+.font-s {
+    font-size: 0.9rem;
+}
 body, .font-l {
     /* default media (mobile) */
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 @media (min-width: 720px){
     /* tablet */
+    .font-s {
+        font-size: 1rem;
+    }
     body, .font-l {
         font-size: 3rem;
     }
@@ -108,7 +111,7 @@ nav.links a,
 a.line:hover,
 p a {
     text-decoration: underline;
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 0.07em;
     text-underline-offset: 0.1em;
 }
 

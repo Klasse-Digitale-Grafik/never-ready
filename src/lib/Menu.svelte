@@ -72,7 +72,7 @@
 
     a:hover {
         text-decoration: underline;
-        text-decoration-thickness: 4px;
+        text-decoration-thickness: 0.07em;
         text-underline-offset: 0.1em;
     }
 

@@ -8,7 +8,7 @@
 
     let n = 1 + ( (latest - earliest) / 100 );
     let steps = Array.from( Array(n) ).map( (step,i) => {
-        return `${(earliest/100) + i}:00`;
+        return (earliest/100) + i;
     });
 
 </script>
@@ -20,15 +20,18 @@
 <header class="font-s" style="--steps:{n+2};">
     <h4>&nbsp;</h4>
     {#each steps as step, i}
-        <h4>{step}</h4>
+        <h4>
+            {step}<span class="media-m">:00</span>
+        </h4>
     {/each}
 </header>
 
 {#each Object.entries(days) as [day, events]}
     <ul class="font-s" style="--steps:{n+2};">
         <div class="day">
-            {new Date(day).toLocaleDateString('en-GB',{ weekday: 'long'})}<br />
-            {new Date(day).toLocaleDateString('en-GB', { year: '2-digit', month: 'short', day: 'numeric' })}
+            {new Date(day).toLocaleDateString('en-GB',{ weekday: 'short'})},<br />
+            {new Date(day).toLocaleDateString('en-GB', { day: 'numeric' })}.
+            {new Date(day).toLocaleDateString('en-GB', { month: 'long' })}
         </div>
         {#each events as event, i}
             <div class="event" style="--slot:{event.slot+1}; --row:{i+1};">
@@ -58,6 +61,20 @@
         grid-column-start: var(--slot);
         grid-column-end: span 2;
         grid-row-start: var(--row);
+    }
+    @media (max-width: 720px){
+        .event {
+            grid-column-end: span 4;
+        }
+    }
+
+    .media-m {
+        display: none;
+    }
+    @media (min-width: 720px){
+        .media-m {
+            display: inline;
+        }
     }
 
 </style>
