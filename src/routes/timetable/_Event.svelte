@@ -5,10 +5,16 @@
 </script>
 
 <li>
-    <svelte:element this={event.link ? 'a' : 'div'} href={event.link} title="{event.day} {event.time}">
+    <div>
 
         {#if event.title}
-            <h3>{event.title}</h3>
+            <h3>
+                {#if event.link}
+                    <a href={event.link} sveltekit:prefetch>{event.title}</a>
+                {:else}
+                    {event.title}
+                {/if}
+            </h3>
         {/if}
 
         {#if event.subtitle}
@@ -19,12 +25,12 @@
             <h5>{event.location}</h5>
         {/if}
 
-    </svelte:element>
+    </div>
 </li>
 
 <style>  
     
-    li :global(a:hover) {
+    li :global(a) {
         text-decoration: underline;
         text-decoration-thickness: 0.07em;
         text-underline-offset: 0.1em;

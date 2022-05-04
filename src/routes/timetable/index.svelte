@@ -17,10 +17,11 @@
     <title>Never Ready: Timetable</title>
 </svelte:head>
 
-{#each Object.entries(days) as [day, events]}
+{#each Object.entries(days) as [day, events], d}
     <ul class="font-s" style="--steps:{n+1};">
 
         <div class="day" style="--slot:{steps.length+1}; --row:{1};">
+            Day {d+1}<br />
             {new Date(day).toLocaleDateString('en-GB',{weekday:'long'})},
             {new Date(day).toLocaleDateString('en-GB',{day:'numeric'})}.
             {new Date(day).toLocaleDateString('en-GB',{month:'long'})}
@@ -58,7 +59,7 @@
 
     .day {
         grid-column-start: var(--slot);
-        grid-row-end: span 2;
+        grid-row-end: span 3;
         /* background-color: rgba(255,0,0,0.5); */
     }
     
@@ -70,6 +71,10 @@
 
     .day, .time {
         font-feature-settings: "tnum";
+    }
+
+    ul {
+        margin-bottom: 6rem;
     }
 
     .event {
