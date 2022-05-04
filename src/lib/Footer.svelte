@@ -1,6 +1,8 @@
 <footer>
 
-    <img alt="HFBK Hochschule für Bildende Künste Hamburg" src="/images/HFBK-logo.svg" />
+    <a target="_blank" rel="noopener nofollow external" href="https://hfbk-hamburg.de" title="Website HFBK Hamburg">
+        <img alt="HFBK Hochschule für Bildende Künste Hamburg" src="/images/HFBK-logo.svg" />
+    </a>
 
 </footer>
 
