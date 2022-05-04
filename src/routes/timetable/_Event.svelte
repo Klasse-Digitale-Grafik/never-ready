@@ -7,6 +7,8 @@
 <li>
     <svelte:element this={event.link ? 'a' : 'div'} href={event.link} title="{event.day} {event.time}">
 
+        <p>{event.time}</p>
+
         {#if event.title}
             <h3>{event.title}</h3>
         {/if}
