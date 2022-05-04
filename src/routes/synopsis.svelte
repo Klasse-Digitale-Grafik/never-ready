@@ -17,7 +17,6 @@
 		[!60] [40] Und[30]er the t[10]itle Never Ready [10] 
 		[50] it will ta[40]ke place a[10]t our art school, the [!50]
 		[60] HFB[20]K in Hambur[10]g, Germany.[!40]
-		[!60][!40]
 	" />
 
 	<p>
@@ -26,4 +25,7 @@
 </main>
 
 <style>
+	p {
+        margin-top: 1em;
+    }
 </style>
