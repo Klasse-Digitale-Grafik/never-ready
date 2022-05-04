@@ -1,7 +1,5 @@
 <script>
-	
 	import Text from '$lib/shuffledText/Text.svelte';
-	
 </script>
 
 <svelte:head>
@@ -9,7 +7,8 @@
 </svelte:head>
 
 <main>
-	<Text readable={true} text="
+	
+	<Text text="
 		[!10] [10]From the[10] 9th to the 1[20]1th of June 2022 [!40]
 		[!0] we a[10]re organiz[30]ing a congress [!80]
 		[!70] [70] abou[30]t the visu[10]ality [!0]
