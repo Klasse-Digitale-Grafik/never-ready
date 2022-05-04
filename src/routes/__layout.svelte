@@ -8,10 +8,13 @@
     import Meta from '$lib/Meta.svelte';
     import Menu from '$lib/Menu.svelte';
     import Footer from '$lib/Footer.svelte';
+    import EasterEgg from '$lib/EasterEgg.svelte';
 
     export let url = '';
 
 </script>
+
+<EasterEgg />
 
 <Meta />
 
