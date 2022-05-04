@@ -4,7 +4,7 @@
 
     let title = 'Never Ready';
 
-    const siteUrl = 'https://neverready.com';
+    const siteUrl = 'http://never-ready.hfbk.net';
 
     const description = 'Never Ready Congress on the visuality of the internet. HFBK Hamburg 2022.';
     const keywords = [
