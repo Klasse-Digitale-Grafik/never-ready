@@ -26,7 +26,7 @@
 		<Line {readable} delay={0}      text={'[!80] [10]with[70] [!50]'} />
 		<Line {readable} delay={100*1}  href="/speakers/dvtk" text={'[!70]DVT[60]K (GB/FR) [!20]'} />
 		<Line {readable} delay={100*2}  href="/speakers/kexin-hao" text={'[!70]Kex[40]in Ha[60]o (NL) [!10]'} />
-		<Line {readable} delay={100*3}  href="/speakers/lutz-issler" text={'[!90][50]Lutz Iss[60]ler (DE)[15] [!20]'} />
+		<Line {readable} delay={100*3}  href="/speakers/sebastian-schmieg" text={'[!90][50]Seba[20]stian Sc[60]hmieg (DE)[15] [!20]'} />
 		<Line {readable} delay={100*4}  href="/speakers/marco-land" text={'[!60]Marco La[30]nd (DE)[70] [!70]'} />
 		<Line {readable} delay={100*5}  href="/speakers/olia-lialina" text={'[!30][30]Oli[60]a Liali[50]na (DE) [!10]'} />
 		<Line {readable} delay={100*6}  href="/speakers/laiqa-maohid" text={'[!0][10]Laiq[30]a Mohid (GB)[50] [!80]'} />
