@@ -29,7 +29,7 @@
 		<Line {readable} delay={100*3}  href="/speakers/sebastian-schmieg" text={'[!90][50]Seba[20]stian Sc[60]hmieg (DE)[15] [!20]'} />
 		<Line {readable} delay={100*4}  href="/speakers/marco-land" text={'[!60]Marco La[30]nd (DE)[70] [!70]'} />
 		<Line {readable} delay={100*5}  href="/speakers/olia-lialina" text={'[!30][30]Oli[60]a Liali[50]na (DE) [!10]'} />
-		<Line {readable} delay={100*6}  href="/speakers/laiqa-maohid" text={'[!0][10]Laiq[30]a Mohid (GB)[50] [!80]'} />
+		<Line {readable} delay={100*6}  href="/speakers/laiqa-mohid" text={'[!0][10]Laiq[30]a Mohid (GB)[50] [!80]'} />
 		<Line {readable} delay={100*7}  href="/speakers/laurel-schwulst" text={'[!10][50]Laurel Schwu[40]lst (US) [!70]'} />
 		<Line {readable} delay={100*8}  href="/speakers/vera-van-de-seyp" text={'[!10]Vera va[50]n de S[20]eyp (NL)[10] [!50]'} />
 		<Line {readable} delay={100*9}  href="/speakers/harald-peter-stroem" text={'[!30]Har[50]ald Pet[10]er Ström (SE) [!10]'} />
