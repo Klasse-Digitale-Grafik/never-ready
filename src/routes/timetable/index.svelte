@@ -6,6 +6,8 @@
     export let earliest;
     export let latest;
 
+    console.log({ days, earliest, latest });
+
     let n = 1 + ( (latest - earliest) / 100 );
     let steps = Array.from( Array(n) ).map( (step,i) => {
         return (earliest/100) + i;
