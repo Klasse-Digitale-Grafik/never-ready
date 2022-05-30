@@ -20,9 +20,11 @@
 {#each Object.entries(days) as [day, events], d}
     <ul class="font-s" style="--steps:{n+1};">
 
-        <div class="day" style="--slot:{steps.length+1}; --row:{1};">
-            Day {d+1}<br />
-            {new Date(day).toLocaleDateString('en-GB',{weekday:'long'})},
+        <div class="day" style="--row:{1};">
+            Day {d+1}
+            <br />
+            {new Date(day).toLocaleDateString('en-GB',{weekday:'long'})}
+            <br />
             {new Date(day).toLocaleDateString('en-GB',{day:'numeric'})}.
             {new Date(day).toLocaleDateString('en-GB',{month:'long'})}
         </div>
@@ -30,7 +32,8 @@
         {#each events as event, i}
 
             <div class="time" style="--slot:{event.slot}; --row:{(i*2)+1};">
-                {event.time}
+                <span class="media-s">{event.time.replace(':00','')}</span>
+                <span class="media-m">{event.time}</span>
             </div>
 
             <div class="event" style="--slot:{event.slot}; --row:{(i*2)+2};">
@@ -58,15 +61,27 @@
     }
 
     .day {
-        grid-column-start: var(--slot);
+        grid-column-start: -3;
+        grid-column-end: span 2;
         grid-row-end: span 3;
         /* background-color: rgba(255,0,0,0.5); */
+    }
+    @media (min-width: 720px){
+        .day {
+            grid-column-start: -2;
+        }
     }
     
     .time {
         /* background-color: rgba(0,255,0,0.5); */
         grid-column-start: var(--slot);
+        grid-column-end: span 2;
         grid-row-start: var(--row);
+    }
+    @media (min-width: 720px){
+        .day {
+            grid-column-start: -2;
+        }
     }
 
     .day, .time {
@@ -93,6 +108,9 @@
         display: none;
     }
     @media (min-width: 720px){
+        .media-s {
+            display: none;
+        }
         .media-m {
             display: inline;
         }
