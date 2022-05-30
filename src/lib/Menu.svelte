@@ -6,7 +6,7 @@
     let links = [
         ['/#about', 'About'],
         ['/#speakers', 'Speakers'],
-        [false, 'Timetable t.b.a.'],
+        ['/timetable', 'Timetable'],
         ['/tickets', 'Tickets'],
         ['/location', 'Location'],
         ['/impressum', 'Legal Notice'],

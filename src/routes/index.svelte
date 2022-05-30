@@ -41,7 +41,7 @@
 
 <main>
 	<Text let:readable>
-		<Line {readable} delay={0} text={'[!50][60]Time[10]tab[30]le t.b.a.[!40]'} />
+		<Line {readable} delay={0} href="/timetable" text={'[!50][60]Time[10]tab[30]le[!40]'} />
 	</Text>
 	<Text let:readable>
 		<Line {readable} delay={100} href="/tickets" text={'[!30][20]Ticke[10]ts[!10]'} />
