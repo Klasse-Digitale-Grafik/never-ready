@@ -1,6 +1,6 @@
 <script>
 
-    const ticketlink = 'https://www.eventbrite.de/e/never-ready-a-congress-on-the-visuality-of-the-internet-tickets-325734830647';
+    const link = 'https://www.eventbrite.de/e/never-ready-a-congress-on-the-visuality-of-the-internet-tickets-325734830647';
 
 </script>
 
@@ -17,10 +17,9 @@
 
     <p>
         Please book your free ticket via
-        <a target="_blank" rel="noopener noreferrer external" href="{ticketlink}">the link</a>.
+        <a target="_blank" rel="noopener noreferrer external" href="{link}">the link</a>.
         As there is limited space, ticketing is mandatory.
-        We also kindly ask you to return your ticket
-        in case you can not make it to the event.
+        We also kindly ask you to return your ticket in case you can not make it to the event.
         Thank You!
     </p>
 

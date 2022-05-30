@@ -34,13 +34,16 @@ function findEarliestAndLatestTime( events ){
 
 function formatEvent( event, earliest ){
 
-    // time 
+    // format time 
 
     let time = parseInt( event.time.replace(/\D/g,'') );
-    let slot = 1 + Math.floor( ( time - earliest ) / 100 );
     let minutes = getMinutes( event.time );
 
-    // links
+    // grid column
+
+    let slot = 1 + Math.floor( ( time - earliest ) / 100 );
+
+    // multiple links (e.g. for the panels)
 
     let links;
     if( event.link.startsWith('[') ){
@@ -59,23 +62,7 @@ function formatEvent( event, earliest ){
     };
 }
 
-export async function get() {
-
-    // load data
-
-    let events = csvToJson.getJsonFromCsv(`static/data/timetable.csv`)
-        .sort(sortByDayAndTime);
-
-    // find earliest and 
-    
-    let { earliest, latest } = findEarliestAndLatestTime( events );
-
-    // format events
-
-    events = events.map( event => formatEvent( event, earliest ) );
-
-    // group by days
-
+function groupEventsByDay( events ){
     let days = {};
     events.forEach( event => {
         if( !days.hasOwnProperty( event.day ) ){
@@ -83,6 +70,28 @@ export async function get() {
         }
         days[ event.day ].push( event );
     });
+    return days;
+}
+
+export async function get() {
+
+    // load data
+
+    let eventsData = csvToJson
+        .getJsonFromCsv(`static/data/timetable.csv`)
+        .sort(sortByDayAndTime);
+
+    // find earliest and 
+    
+    let { earliest, latest } = findEarliestAndLatestTime( eventsData );
+
+    // format events
+
+    let events = eventsData.map( event => formatEvent( event, earliest ) );
+
+    // group by days
+
+    let days = groupEventsByDay( events );
 
     return {
         body: {

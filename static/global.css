@@ -69,10 +69,10 @@ body > div {
     flex-direction: column;
     justify-content: space-between;
 }
+
 /*
 font sizes
 */
-
 
 .font-s {
     font-size: 0.9rem;
@@ -103,6 +103,10 @@ body, .font-l {
     }
 }
 
+/*
+links
+*/
+
 nav.links a {
     display: block;
 }
@@ -114,6 +118,10 @@ p a {
     text-decoration-thickness: 0.07em;
     text-underline-offset: 0.1em;
 }
+
+/*
+helpers
+*/
 
 span.space {
     display: inline-block;

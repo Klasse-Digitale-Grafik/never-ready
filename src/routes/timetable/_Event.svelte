@@ -10,6 +10,7 @@
         {#if event.title}
             <h3>
                 {#if event.links}
+                    <!-- multiple links and multiple names -->
                     {#each event.links.names as name, i}
                         <a href={event.links.links[i]} sveltekit:prefetch>{name}</a>{#if i < event.links.links.length - 1},&nbsp;{/if}
                     {/each}

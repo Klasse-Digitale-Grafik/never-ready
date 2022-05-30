@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-    <title>Never Ready: 9.–11. Juni 2022</title>
+    <title>Never Ready: 9.–11. June 2022</title>
 </svelte:head>
 
 <main>
@@ -54,9 +54,7 @@
 <main id="about" class="about">
 	<p>
 		From the  9th to the 11th of June 2022 
-		we are organizing a congress
-		about the visuality 
-		of the Internet.
+		we are organizing a congress about the visuality of the Internet.
 		Under the title Never Ready  
 		it will take place at our art school, the 
 		HFBK in Hamburg, Germany.

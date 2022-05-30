@@ -1,3 +1,14 @@
+<script>
+
+    const directions = [
+        [ 'U3 Mundsburg', "https://goo.gl/maps/tUqm4e4CdDw79ND6A" ],
+        [ 'S1, S11 Landwehr', "https://goo.gl/maps/Xz5XeSEEyKqR2XJJ8" ],
+        [ 'U1 Wartenau', "https://goo.gl/maps/LDdtzStmvTA1xD6z6" ],
+        [ 'Bus 25, 172, 606 Uferstraße', "https://goo.gl/maps/rpx1MPaYCZaSDctL7" ],
+    ];
+
+</script>
+
 <svelte:head>
     <title>Never Ready: Location</title>
 </svelte:head>
@@ -29,13 +40,10 @@
     </p>
 
     <p>
-        <a target="_blank" rel="noopener noreferrer external" href="https://goo.gl/maps/tUqm4e4CdDw79ND6A">U3 Mundsburg</a>
-        <br />
-        <a target="_blank" rel="noopener noreferrer external" href="https://goo.gl/maps/Xz5XeSEEyKqR2XJJ8">S1, S11 Landwehr</a>
-        <br />
-        <a target="_blank" rel="noopener noreferrer external" href="https://goo.gl/maps/LDdtzStmvTA1xD6z6">U1 Wartenau</a>
-        <br />
-        <a target="_blank" rel="noopener noreferrer external" href="https://goo.gl/maps/rpx1MPaYCZaSDctL7">Bus 25, 172, 606 Uferstraße</a>
+        {#each directions as [title, href]}
+            <a target="_blank" rel="noopener noreferrer external" {href}>{title}</a>
+            <br />
+        {/each}
     </p>
 
 </main>

@@ -3,7 +3,8 @@
 [SvelteKit](https://kit.svelte.dev) website for 2022 never ready conference organized by Klasse Digitale Grafik, HFBK Hamburg.
 
 Live version: http://never-ready.hfbk.net
-Text version: https://never-ready.netlify.app
+
+Test version: https://never-ready.netlify.app
 
 ## Workflow
 
@@ -32,16 +33,17 @@ npm run build
 ```
 
 6. Deploy
+
 Upload all content of the `build` folder to your webserver.
 
 ## Where to edit stuff
 
 - Pages `src/routes/...`
-- Timetable `data/timetable.csv`
+- Timetable `static/data/timetable.csv`
 - Website Components (e.g. menu or footer) `src/lib/...`
-- Global CSS `/static/global.css`
+- Global CSS `static/global.css`
 - Static images `static/images/...`
 
 ## Help
 
-> If you have never worked with [Svelte](https://www.youtube.com/watch?v=rv3Yq-B8qp4) and SvelteKit before: Svelte is a JS compiler that makes it easier to make interactive interface with HTML, JS, CSS. SvelteKit is a framework that makes it easy to build real websites with Svelte. You might want to download a Svelte extension for your code editor ([VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)) or [Atom](https://atom.io/packages/ide-svelte)).
+> If you have never worked with [Svelte](https://www.youtube.com/watch?v=rv3Yq-B8qp4) and SvelteKit before: Svelte is a JS compiler that makes it easier to make interactive interface with HTML, JS, CSS. SvelteKit is a framework that makes it easy to build real websites with Svelte. You might want to download a Svelte extension for your code editor [VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
