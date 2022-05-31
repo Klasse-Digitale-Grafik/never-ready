@@ -9,6 +9,7 @@
         ['/timetable', 'Timetable'],
         ['/tickets', 'Tickets'],
         ['/location', 'Location'],
+        ['/values-statement', 'Values Statement'],
         ['/impressum', 'Legal Notice'],
     ];
 
