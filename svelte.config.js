@@ -7,7 +7,8 @@ const config = {
 		prerender: {
 			default: true,
 			enabled: true
-		}
+		},
+		trailingSlash: 'always'
 	}
 };
 
