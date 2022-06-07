@@ -57,6 +57,7 @@
         left: 1rem;
         width: 1em;
         height: 1em;
+        text-shadow: 0 0 3px white, 0 0 8px white;
     }
 
     nav {
